@@ -18,6 +18,8 @@ public class PlaeyrMove : MonoBehaviour
     {
       // Hello
 
+        // dfdfdfasfaf
+
         if (Input.GetKey(KeyCode.UpArrow))
             obj.transform.Translate(Vector3.forward * MoveSpeed * Time.deltaTime);
         if (Input.GetKey(KeyCode.DownArrow))
