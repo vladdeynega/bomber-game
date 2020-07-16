@@ -16,9 +16,7 @@ public class PlaeyrMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //float h = Input.GetAxis("Horizontal");
-        //float xPos = h * speed;
-        //obj.transform.position = new Vector3(xPos, 0.35f, 0);
+        
 
         if (Input.GetKey(KeyCode.UpArrow))
             obj.transform.Translate(Vector3.forward * MoveSpeed * Time.deltaTime);
